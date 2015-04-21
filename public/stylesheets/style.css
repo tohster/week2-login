@@ -1,0 +1,74 @@
+form {
+  font-family: Josefin Sans, Helvetica, Sans-serif;
+  font-size: 12px;
+  color: #58595B;
+  padding: 6em 3em 3em 3em;
+  text-align: center;
+}
+
+form button {
+  font-family: Josefin Sans, Helvetica, Sans-serif;
+  font-size:18px;
+  color: #58595B;
+  padding: 0.5em;
+  background-color: #FFFFFF;
+  border: 1px solid #D1D3D4;
+  border-radius: 0.1em;
+  margin: 1em;
+}
+
+input {
+  font-family: Josefin Sans, Helvetica, Sans-serif;
+  font-size: 18px;
+  width: 80%;
+  color: #58595B;
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid #D1D3D4;
+  border-radius: 0.1em;
+  display: inline-block;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 0% 10% 0% 10%;
+  text-align: left;
+}
+
+form h1 {
+  text-align: left;
+  font-family: Josefin Slab, Georgia, Times;
+  padding: 0em 2.5em;
+}
+
+.form-bg {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #FFFFFF;
+  width: 60%;
+  text-align: center;
+}
+
+.bg1 {
+  width: 100%;
+  background-image: url("https://download.unsplash.com/photo-1418065460487-3e41a6c84dc5");
+  padding: 8em 0em;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  width: 100%;
+  background-image: url("https://download.unsplash.com/uploads/1411589183965bdf6e141/5f468e98");
+  padding: 8em 0em;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+
