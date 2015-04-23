@@ -3,6 +3,10 @@ form {
   font-size: 12px;
   color: #58595B;
   text-align: center;
+  padding: 4em 0em 3em 0em;
+  border: 1px solid #D1D3D4;
+  border-radius: 0.2em;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 form button {
@@ -13,49 +17,44 @@ form button {
   background-color: #FFFFFF;
   border: 1px solid #D1D3D4;
   border-radius: 0.1em;
-  margin: 1em;
 }
 
 form h1 {
   text-align: left;
   font-family: Josefin Slab, Georgia, Times;
-  padding: 0% 20%;
+  margin: 0 10%;
 }
 
 input {
   font-family: Josefin Sans, Helvetica, Sans-serif;
   font-size: 18px;
-  width: 60%;
+  width: 80%;
   color: #58595B;
-  padding: 0.5em;
-  margin: 0.5em;
+  margin: 5% 10%;
+  padding: 0.3em;
   border: 1px solid #D1D3D4;
   border-radius: 0.1em;
-  display: inline-block;
+  display: inherit;
 }
 
-label {
-  display: block;
-  margin: 0% 20% 5% 20%;
-  text-align: left;
+input:hover {
+        background-color:#E6E7E8;
+        border-color:#999999;
 }
 
-.form-bg {
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid #FFFFFF;
-  border-radius: 0.2em;
-  width: 35%;
-  text-align: center;
-  display: inline-block;
-  padding: 1.5em 0em;
-  margin: 0em 1.5em;
+.form-control { 
+  width: 80%;
+  margin: 5% 10%;
+  font-size: 18px;
+  color: #58595B;
 }
 
 .bg1 {
   width: 100%;
   background-image: url("https://download.unsplash.com/photo-1418065460487-3e41a6c84dc5");
   padding: 8em 0em;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
@@ -63,26 +62,7 @@ label {
   width: 100%;
   background-image: url("https://download.unsplash.com/uploads/1411589183965bdf6e141/5f468e98");
   padding: 8em 0em;
-  background-size: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-attachment: fixed;
-}
-
-.login {
-  display: inline;
-  float; left;
-}
-
-.signup {
-  display: inline;
-  float; right;
-}
-
-.form-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }

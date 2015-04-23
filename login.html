@@ -2,35 +2,37 @@
 <html>
   <head>
     <title>venuesYYC</title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="public/stylesheets/style.css">
     <link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab">
     <link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Sans">
   </head>
   <body>
     <div class="bg1">
-    <div class="form-center">
-    <div class="form-bg">
-    <form action="/login" class="login">
+
+    <div class="row">
+    <form action="/login" class="login col-md-3 col-md-offset-2">
     <h1>log in</h1>
-      <input name="email" type="text"></input>
-      <label>email</label>
-      <input name="password" type="password"></input>
-      <label>password</label>
+      <input name="email" type="text" tabindex="1" placeholder="email"></input>
+      <input name="password" type="password" tabindex="2" placeholder="password"></input>
       <button>submit</button>
     </form>
-    </div>
-    <div class="form-bg">
-    <form action="/signup" class="signup">
+    <form action="/signup" class="signup col-md-3 col-md-offset-2">
     <h1>sign up</h1>
-      <input name="first-name" type="text"></input>
-      <label>full name</label>
-      <input name="email" type="text"></input>
-      <label>email</label>
+      <input name="first-name" type="text" tabindex="1" placeholder="first name"></input>
+      <input name="email" type="text" tabindex="2" placeholder="last name"></input>
       <button>submit</button>
     </form>
     </div>
-    </div>
-    </div>
+
     </div>
   </body>
 </html>
